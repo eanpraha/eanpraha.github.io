@@ -13,7 +13,7 @@ import Link from "./Link.astro";
       </div>
     </div>
     <div class="flex justify-between items-center">
-      <div class="">
+      <div class="hidden md:flex">
         <ul class="flex flex-wrap gap-2">
           {
             SOCIALS.map((SOCIAL) => (
@@ -69,8 +69,8 @@ import Link from "./Link.astro";
           &copy; 2025 {`|`}
           {SITE.NAME}
         </p>
-        <img src="/logo.png" alt="logo-web" height="20" width="20" class="mr-2" />
-        <p>
+        <img src="/logo.png" alt="logo-web" height="20" width="20" class="md:mr-2" />
+        <p class="hidden md:block">
           template By <a href="https://github.com/markhorn-dev/astro-nano"
             >astro-nano</a
           >
