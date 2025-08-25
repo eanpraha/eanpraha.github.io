@@ -6,4 +6,5 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   site: "https://eanpraha.github.io",
   integrations: [mdx(), sitemap(), tailwind()],
+  output: "static"
 });
